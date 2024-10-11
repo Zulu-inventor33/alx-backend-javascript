@@ -1,0 +1,24 @@
+{
+  "name": "0x00-ES6_basic",
+  "version": "1.0.0",
+  "description": "Introduction into node",
+  "main": "0-constants.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node",
+    "test": "jest",
+    "build": "babel src --out-dir lib",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "@babel/cli": "^7.25.7",
+    "@babel/core": "^7.25.8",
+    "@babel/preset-env": "^7.25.8",
+    "eslint": "^8.0.0"
+  }
+}
+
